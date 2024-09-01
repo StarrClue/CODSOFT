@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodSoft.Task3.ShowCardMenuController">
+   <children>
+      <Pane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #1434A4;">
+         <children>
+            <Text fill="WHITE" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Select" textAlignment="CENTER" wrappingWidth="600.0">
+               <font>
+                  <Font name="Calibri Bold" size="45.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="110.0" prefHeight="290.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text fx:id="cardWithdraw" layoutX="27.0" layoutY="73.0" onMouseClicked="#onCardWithdrawClicked" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="&lt; Withdraw">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Text fx:id="cardDeposit" layoutX="451.0" layoutY="72.0" onMouseClicked="#onCardDepositClicked" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Deposit &gt;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Text fx:id="cardCheckBalance" layoutX="27.0" layoutY="208.0" onMouseClicked="#onCardCheckBalanceClicked" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="&lt; Check Balance">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Text fx:id="cardPinChange" layoutX="397.0" layoutY="207.0" onMouseClicked="#onPinChangeClicked" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Pin Change &gt;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>

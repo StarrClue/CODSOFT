@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodSoft.Task3.InvalidAccountNumberViewController">
+   <children>
+      <Pane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #1434A4;">
+         <children>
+            <Text fill="RED" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid Account Number!!!" textAlignment="CENTER" wrappingWidth="600.0">
+               <font>
+                  <Font name="Calibri Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="110.0" prefHeight="290.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button fx:id="yes" layoutX="49.0" layoutY="157.0" mnemonicParsing="false" onMouseClicked="#onYesButtonClicked" prefHeight="52.0" prefWidth="85.0" style="-fx-background-color: #0BDA51;" text="Yes" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="no" layoutX="466.0" layoutY="157.0" mnemonicParsing="false" onMouseClicked="#onNoButtonClicked" prefHeight="52.0" prefWidth="85.0" style="-fx-background-color: #ff0000;" text="No" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            <Text layoutX="197.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Try Again?" textAlignment="CENTER" wrappingWidth="206.79998779296875">
+               <font>
+                  <Font name="Calibri Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>

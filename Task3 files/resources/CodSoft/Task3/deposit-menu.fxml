@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodSoft.Task3.DepositMenuController">
+   <children>
+      <Pane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #1434A4;">
+         <children>
+            <Text fill="WHITE" layoutX="8.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter amount to deposit in the multiple of 100" textAlignment="CENTER" wrappingWidth="584.7999873161316">
+               <font>
+                  <Font name="Calibri Bold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="110.0" prefHeight="290.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <TextField fx:id="depositAmountField" layoutX="225.0" layoutY="119.0" prefHeight="50.0" prefWidth="150.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </TextField>
+            <Button fx:id="depositValidationButton" layoutX="501.0" layoutY="31.0" onMouseClicked="#depositValidationButtonClicked" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" style="-fx-background-color: #0BDA51;" text="Enter" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="depositClearButton" layoutX="501.0" layoutY="119.0" onMouseClicked="#depositClearButtonClicked" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" style="-fx-background-color: #d3d3d3;" text="Clear" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="depositCancelButton" layoutX="501.0" layoutY="217.0" onMouseClicked="#depositCancelButtonClicked" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" style="-fx-background-color: #ff0000;" text="Cancel" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

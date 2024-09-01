@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodSoft.Task3.MainMenuController">
+   <children>
+      <Pane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #1434A4;">
+         <children>
+            <Text fill="WHITE" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to ATM" textAlignment="CENTER" wrappingWidth="600.0">
+               <font>
+                  <Font name="Calibri Bold" size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutY="110.0" prefHeight="290.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text fx:id="insertCard" layoutX="401.0" layoutY="129.0" onMouseClicked="#onInsertCardClicked" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert Card &gt;">
+               <font>
+                  <Font name="Calibri Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text fx:id="cardlessTransaction" layoutX="282.0" layoutY="194.0" onMouseClicked="#onCardlessTransactionClicked" strokeType="OUTSIDE" strokeWidth="0.0" text="Cardless Transaction &gt;">
+               <font>
+                  <Font name="Calibri Bold" size="30.0" />
+               </font>
+            </Text>
+            <Text layoutX="143.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Select to Continue">
+               <font>
+                  <Font name="Calibri" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>
